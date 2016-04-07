@@ -100,3 +100,4 @@ http://localhost:8080/api/v1/fcmmanager/models/:id
 This project (i.e. all files in this repository if not declared otherwise) is
 licensed under the GNU Affero General Public License (AGPLv3), see
 LICENSE.txt.
+
