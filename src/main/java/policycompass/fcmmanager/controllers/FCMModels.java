@@ -1017,8 +1017,8 @@ public class FCMModels {
 		}
 
 		userIsGod = gods.contains(userPath);
-		//return userIsGod;
-		return true;
+		return userIsGod;
+
 	}
 
 	public static class NotAuthorizedException extends WebApplicationException {
