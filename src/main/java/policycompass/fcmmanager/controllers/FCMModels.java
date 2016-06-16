@@ -1030,8 +1030,8 @@ public class FCMModels {
 
 
 	public static FCMWeka wekaOutput(String wekaInput) throws Exception {
-
-		StringBuilder sb = new StringBuilder();
+// this was for testing
+		/*StringBuilder sb = new StringBuilder();
 		sb.append("@relation level_of_satisfaction\n\n");
 		sb.append("@attribute speed_public_service numeric\n");
 		sb.append("@attribute accessibility numeric\n");
@@ -1044,7 +1044,7 @@ public class FCMModels {
 		sb.append("0.4,0.6,0.8,0.4\n");
 		sb.append("0.8,1,1,0.8\n");
 		sb.append("1,1,1,1\n");
-
+*/
 		//StringReader trainreader = new StringReader(sb.toString());
 		StringReader trainreader = new StringReader(wekaInput);
 		Instances train = new Instances(trainreader);
